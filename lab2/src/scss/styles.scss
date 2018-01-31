@@ -1,5 +1,12 @@
-$bg-color: red;
+$theme-colors: (
+  "primary": #8B4513
+);
 
-body {
-	background: $bg-color;
+$body-bg: #ededed;
+
+.jumbotron {
+    background-color: #ffffff !important;
+    border-top: 3px solid rgb(219, 219, 219);
 }
+
+@import "node_modules/bootstrap/scss/bootstrap";
